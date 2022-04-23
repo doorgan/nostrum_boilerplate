@@ -7,7 +7,7 @@ defmodule NostrumBoilerplate.Command do
 
   @doc """
   Used to define the spec for the command to be used for command registration.
-  See https://hexdocs.pm/nostrum/slash-commands.html for more info on the
+  See https://hexdocs.pm/nostrum/application-commands.html for more info on the
   required shape for the spec.
   """
   @callback spec(name :: String.t()) :: map()
